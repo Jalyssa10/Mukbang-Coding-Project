@@ -18,9 +18,9 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 Include your User Story you analyzed for your project here. Your User Story should have the following format: 
 
-> As an [role], <br> 
-> I want to [goal], <br> 
-> so that I can [benefit]. 
+> As an [Mukbang Youtuber],
+> I want to [grow my channel],
+> so that I can [make more money]. 
 
 ## Dataset 
 
@@ -37,8 +37,10 @@ Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
 
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![UML Diagram for my project](![alt text](<Unit 3 [Jalyssa De La Torre, Lina Santana] UML Diagram.png>)) 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will in
+Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+
+In our project we want to help our users grow their mukbang youtube channels and be able to make a profit. We use seperate 1D arrays for each data set and transverse through all of them in order to find the most popular and the average trend count. Our data set is based off of TikTok trends as it is a popular app among a variety of different ages, we took the hashtags that were associated with that name and inserted it along the foods name.
