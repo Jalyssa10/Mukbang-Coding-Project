@@ -1,0 +1,17 @@
+class TrendingFoods {
+    String name;
+    int searchedTimes;
+
+    public TrendingFoods(String name, int searchedTimes) {
+        this.name = name;
+        this.searchedTimes = searchedTimes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getsearchedTimes() {
+        return searchedTimes;
+    }
+}

@@ -1,0 +1,37 @@
+class BusinessTrends {
+    TrendingFoods[] trends;
+
+    public BusinessTrends(TrendingFoods[] trends) {
+        this.trends = trends;
+    }
+
+    public String getMostPopularTrend() {
+        if (trends.length == 0) {
+            return "No data";
+        }
+
+        TrendingFoods mostPopular = trends[0];
+        for (int i = 1; i < trends.length; i++) {
+            if (trends[i].getsearchedTimes() > mostPopular.getsearchedTimes()) {
+                mostPopular = trends[i];
+            }
+        }
+        return "The most popular trend is: " + mostPopular.getName() + " and has " + mostPopular.getsearchedTimes() + " searches.";
+    }
+
+    public int calculateAverageTrendCount() {
+        if (trends.length == 0) {
+            return trends.length;
+        }
+
+        int total = 0;
+        for (int i = 0; i < trends.length; i++) {
+            total += trends[i].getsearchedTimes();
+        }
+        return (int) total / trends.length;
+    }
+
+    public String info() {
+        return "Total trends analyzed: " + trends.length + "& Average trend count: " + calculateAverageTrendCount();
+    }
+}

@@ -1,0 +1,20 @@
+public class DataRunner {
+    public static void main(String[] args) {
+        TrendingFoods[] sampleTrends = {
+            new TrendingFoods("Dubai Chocolate", 7000),
+            new TrendingFoods("Onion Boil", 2000),
+            new TrendingFoods("Crumbl Cookie", 800000),
+            new TrendingFoods("Buldak Ramen", 200000),
+            new TrendingFoods("Wingstop", 100000),
+            new TrendingFoods("Chipotle", 100000),
+            new TrendingFoods("Wendys", 300000),
+            new TrendingFoods("Taco Bell", 200000),
+            new TrendingFoods("In N Out", 500000),
+            new TrendingFoods("Korean food", 100000),
+            new TrendingFoods("Mexican food", 830000)};
+
+        BusinessTrends analyzed = new BusinessTrends(sampleTrends);
+        System.out.println(analyzed.info());
+        System.out.println(analyzed.getMostPopularTrend());
+    }
+}
