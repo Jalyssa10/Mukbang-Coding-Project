@@ -26,13 +26,12 @@ Include your User Story you analyzed for your project here. Your User Story shou
 
 Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type. 
 
-Example: 
+Example: https://docs.google.com/spreadsheets/d/1-ZWPR9hF6kCHHagEQXHgU90YI19eJDSbbvA-Kqz_4a4/edit?usp=sharing
 
 Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
-
+- **Trend** (String) - name of the foods 
+- **Number of #** (int) - number of videos associated with that food item
+- 
 ## UML Diagram 
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
